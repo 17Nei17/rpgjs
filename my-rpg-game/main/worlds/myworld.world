@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/simplemap.tmx",
+            "height": 1000,
+            "width": 1000,
+            "x": 88,
+            "y": -136
+        },
+        {
+            "fileName": "maps/simplemap2.tmx",
+            "height": 1000,
+            "width": 1000,
+            "x": 88,
+            "y": 1864
+        },
+        {
+            "fileName": "maps/transMap.tmx",
+            "height": 1000,
+            "width": 600,
+            "x": 288,
+            "y": 864
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
