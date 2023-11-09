@@ -27,9 +27,9 @@ const frameY = direction => {
             animations: direction => [
                     [ 
                         { time: 0, frameX: 0, frameY: 0 },
-                        // { time: 10, frameX: 0, frameY: frameY(direction) },
-                        // { time: 20, frameX: 0, frameY: frameY(direction) },
-                        // { time: 40 } // in in fact the final duration of the animation.
+                        { time: 10, frameX: 0, frameY: 0 },
+                        { time: 20, frameX: 0, frameY: 0 },
+                        { time: 40 } // in in fact the final duration of the animation.
                     ]
                 ]
          }

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="100" tileheight="100" infinite="0" nextlayerid="7" nextobjectid="21">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="21">
  <editorsettings>
   <chunksize width="4" height="4"/>
  </editorsettings>
  <tileset firstgid="1" source="32x32.tsx"/>
  <tileset firstgid="97" source="73032.tsx"/>
- <layer id="1" name="Tile Layer 1" width="10" height="10">
+ <tileset firstgid="197" source="Effet_abstrait_avec_photoshop2.tsx"/>
+ <tileset firstgid="222" source="73015.tsx"/>
+ <tileset firstgid="322" source="src.tsx"/>
+ <layer id="7" name="Слой тайлов 1" width="8" height="8">
   <data encoding="base64">
-   YQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsAAABsAAAAbQAAAG4AAABvAAAAcAAAAHEAAAByAAAAcwAAAHQAAAB1AAAAdgAAAHcAAAB4AAAAeQAAAHoAAAB7AAAAfAAAAH0AAAB+AAAAfwAAAIAAAACBAAAAggAAAIMAAACEAAAAhQAAAIYAAACHAAAAiAAAAIkAAACKAAAAiwAAAIwAAACNAAAAjgAAAI8AAACQAAAAkQAAAJIAAACTAAAAlAAAAJUAAACWAAAAlwAAAJgAAACZAAAAmgAAAJsAAACcAAAAnQAAAJ4AAACfAAAAoAAAAKEAAACiAAAAowAAAKQAAAClAAAApgAAAKcAAACoAAAAqQAAAKoAAACrAAAArAAAAK0AAACuAAAArwAAALAAAACxAAAAsgAAALMAAAC0AAAAtQAAALYAAAC3AAAAuAAAALkAAAC6AAAAuwAAALwAAAC9AAAAvgAAAL8AAADAAAAAwQAAAMIAAADDAAAAxAAAAA==
+   QgEAAEIBAADVAAAA1gAAANcAAADVAAAAQgEAAEIBAABCAQAAQgEAANoAAADbAAAA3AAAANoAAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAEIBAABCAQAAQgEAAA==
   </data>
  </layer>
  <objectgroup id="6" name="Слой объектов 1">
-  <object id="20" name="start" type="hero" x="550.424" y="470.061">
+  <object id="20" name="start" type="hero" x="393.969" y="377.152">
    <point/>
   </object>
  </objectgroup>

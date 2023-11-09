@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="100" tileheight="100" infinite="0" nextlayerid="5" nextobjectid="2">
- <tileset firstgid="1" source="73032.tsx"/>
- <tileset firstgid="101" source="73015.tsx"/>
- <layer id="3" name="Tile Layer 3" width="10" height="10">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="4" height="10" tilewidth="100" tileheight="100" infinite="0" nextlayerid="6" nextobjectid="10">
+ <tileset firstgid="1" source="Effet_abstrait_avec_photoshop2.tsx"/>
+ <tileset firstgid="26" source="src.tsx"/>
+ <layer id="3" name="Tile Layer 3" width="4" height="10">
   <data encoding="base64">
-   ZQAAAGYAAABnAAAAaAAAAGkAAABqAAAAawAAAGwAAABtAAAAbgAAAG8AAABwAAAAcQAAAHIAAABzAAAAdAAAAHUAAAB2AAAAdwAAAHgAAAB5AAAAegAAAHsAAAB8AAAAfQAAAH4AAAB/AAAAgAAAAIEAAACCAAAAgwAAAIQAAACFAAAAhgAAAIcAAACIAAAAiQAAAIoAAACLAAAAjAAAAI0AAACOAAAAjwAAAJAAAACRAAAAkgAAAJMAAACUAAAAlQAAAJYAAACXAAAAmAAAAJkAAACaAAAAmwAAAJwAAACdAAAAngAAAJ8AAACgAAAAoQAAAKIAAACjAAAApAAAAKUAAACmAAAApwAAAKgAAACpAAAAqgAAAKsAAACsAAAArQAAAK4AAACvAAAAsAAAALEAAACyAAAAswAAALQAAAC1AAAAtgAAALcAAAC4AAAAuQAAALoAAAC7AAAAvAAAAL0AAAC+AAAAvwAAAMAAAADBAAAAwgAAAMMAAADEAAAAxQAAAMYAAADHAAAAyAAAAA==
+   GgAAAAcAAAAIAAAAGgAAABoAAAAMAAAADQAAABoAAAAaAAAAEQAAABIAAAAaAAAAGgAAABYAAAAXAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAAA==
   </data>
  </layer>
- <objectgroup id="4" name="Слой объектов 1">
-  <object id="1" name="EV-2" x="546.97" y="483.576">
+ <objectgroup id="5" name="Слой объектов 2">
+  <object id="2" name="transaction" x="203" y="388">
+   <point/>
+  </object>
+  <object id="8" name="transaction-door" x="201" y="95">
    <point/>
   </object>
  </objectgroup>
