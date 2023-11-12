@@ -20,6 +20,13 @@
             "width": 400,
             "x": 388,
             "y": -436
+        },
+        {
+            "fileName": "maps/desert1.tmx",
+            "height": 2000,
+            "width": 4000,
+            "x": -1412,
+            "y": -3436
         }
     ],
     "onlyShowAdjacentMaps": false,

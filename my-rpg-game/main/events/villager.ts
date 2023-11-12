@@ -13,11 +13,6 @@ export default class VillagerEvent extends RpgEvent {
         this.setGraphic('female')
     }
     async onAction(player: RpgPlayer) {
-        // await player.showText('I give you 10 gold.', {
-        //     talkWith: this
-        // })
-        // player.gold += 10
-        // my-gui
         RpgGui.display(PrebuiltGui.Notification, {
             message: 'You have unlocked the secret passage',
             time: 2000,

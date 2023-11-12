@@ -1,7 +1,6 @@
 import { RpgPlayer, type RpgPlayerHooks, Control, Components } from '@rpgjs/server'
 
 
-
 const player: RpgPlayerHooks = {
     onConnected(player: RpgPlayer) {
         player.name = 'Nei'
@@ -14,13 +13,14 @@ const player: RpgPlayerHooks = {
         }
     },
     async onJoinMap(player: RpgPlayer) {
+        console.log("onJoinMap");
+        //эта штука вполне себе работает и вызывает окошко через пропсы в myGui.tsx
         player.gui('my-gui').open({
-            foo: 'bar' // You can send props to the GUI
+            foo: 123 
         });
         if (player.getVariable('AFTER_INTRO')) {
             return
         }
-        // await player.showText('And, please, support the project on github https://github.com/RSamaium/RPG-JS ! :)')
         player.setVariable('AFTER_INTRO', true)
     }
 }

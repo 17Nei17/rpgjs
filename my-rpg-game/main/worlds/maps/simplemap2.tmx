@@ -8,10 +8,10 @@
   </data>
  </layer>
  <objectgroup id="5" name="Слой объектов 2">
-  <object id="2" name="transaction" x="203" y="388">
+  <object id="2" name="transaction" x="206.03" y="642.545">
    <point/>
   </object>
-  <object id="8" name="transaction-door" x="201" y="95">
+  <object id="8" name="transaction-door" x="188.879" y="367.727">
    <point/>
   </object>
  </objectgroup>
