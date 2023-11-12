@@ -14,9 +14,14 @@ const player: RpgPlayerHooks = {
     },
     async onJoinMap(player: RpgPlayer) {
         console.log("onJoinMap");
+        let currentMap = "Не определена";
+        if (player.getCurrentMap()) {
+            currentMap = player.getCurrentMap().class;
+        }
+
         //эта штука вполне себе работает и вызывает окошко через пропсы в myGui.tsx
         player.gui('my-gui').open({
-            foo: 123 
+            currentMap: currentMap,
         });
         if (player.getVariable('AFTER_INTRO')) {
             return

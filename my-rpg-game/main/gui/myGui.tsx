@@ -12,7 +12,7 @@ export default function MyGUI(props) {
 
     return (
         <div>
-            <h1>{props.foo}</h1>
+            <h1 style={{ color: 'red' }}>Местоположение: {props.currentMap}</h1>
         </div>
     );
 }

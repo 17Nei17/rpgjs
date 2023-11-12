@@ -5,28 +5,84 @@
             "height": 800,
             "width": 800,
             "x": 188,
-            "y": 564
+            "y": -236
         },
         {
             "fileName": "maps/simplemap2.tmx",
             "height": 1000,
             "width": 400,
             "x": 388,
-            "y": -1436
+            "y": -2236
         },
         {
             "fileName": "maps/transMap.tmx",
             "height": 1000,
             "width": 400,
             "x": 388,
-            "y": -436
+            "y": -1236
         },
         {
             "fileName": "maps/desert1.tmx",
-            "height": 2000,
-            "width": 4000,
-            "x": -1412,
-            "y": -3436
+            "height": 5000,
+            "width": 5000,
+            "x": -1912,
+            "y": -12236
+        },
+        {
+            "fileName": "maps/desert-left.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": -6912,
+            "y": -12236
+        },
+        {
+            "fileName": "maps/desert-right.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": 3088,
+            "y": -12236
+        },
+        {
+            "fileName": "maps/desert-top.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": -1912,
+            "y": -17236
+        },
+        {
+            "fileName": "maps/desert-bottom.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": -1912,
+            "y": -7236
+        },
+        {
+            "fileName": "maps/deseet-left-top.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": -6912,
+            "y": -17236
+        },
+        {
+            "fileName": "maps/desert-left-bottom.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": -6912,
+            "y": -7236
+        },
+        {
+            "fileName": "maps/desert-right-top.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": 3088,
+            "y": -17236
+        },
+        {
+            "fileName": "maps/desert-right-bottom.tmx",
+            "height": 5000,
+            "width": 5000,
+            "x": 3088,
+            "y": -7236
         }
     ],
     "onlyShowAdjacentMaps": false,
