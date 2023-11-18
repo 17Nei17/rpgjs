@@ -1,11 +1,12 @@
 import { RpgReactContext } from '@rpgjs/client/react';
 import { React, useContext, useEffect, useState } from 'react';
+import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 
 export default function MyGUI(props) {
     console.log(props);
     var date = new Date();
     const { rpgCurrentPlayer } = useContext(RpgReactContext);
-    const [hp, setHp] = useState(date.getHours());
+    const [time, setTime] = useState(date.getHours());
 
     useEffect(() => {
     }, []);
@@ -13,6 +14,7 @@ export default function MyGUI(props) {
     return (
         <div>
             <h1 style={{ color: 'red' }}>Местоположение: {props.currentMap}</h1>
+            <h1 style={{ color: 'red' }}>Time: {time}</h1>
         </div>
     );
 }

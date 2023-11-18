@@ -1,5 +1,7 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 import { RpgGui, PrebuiltGui } from '@rpgjs/client'
+import { MapData, RpgMap} from '@rpgjs/server'
+
 
 @EventData({
     name: 'transaction',
@@ -8,6 +10,7 @@ import { RpgGui, PrebuiltGui } from '@rpgjs/client'
         height: 100
     }
 })
+
 export default class TransactionEvent extends RpgEvent {
     onInit() {
         this.setGraphic('transaction');
