@@ -1,8 +1,8 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
-
+import { RpgWorld } from '@rpgjs/server';
 
 @EventData({
-    name: 'cheese-4-2',
+    name: 'door-to-dytokrys',
     hitbox: {
         width: 100,
         height: 100
@@ -10,12 +10,15 @@ import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 })
 export default class CheeseOne extends RpgEvent {
     onInit() {
-        this.setGraphic('cheese-2');
+  
     }
     async onAction(player: RpgPlayer) {
-        player.showText('Кусок сыра');
+        await player.changeMap('enter-to-dytokrys', {
+            x: 179,
+            y: 1400
+        });
     }
     async onChanges(player: RpgPlayer) {
 
     }
-} 
+}

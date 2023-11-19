@@ -10,10 +10,10 @@ import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 })
 export default class CheeseOne extends RpgEvent {
     onInit() {
-        this.setGraphic('cheese-4');
+        this.setGraphic('cheese-3');
     }
     async onAction(player: RpgPlayer) {
-        player.showText('*Большой стопка сыров');
+        player.showText('Тоже сыр');
     }
     async onChanges(player: RpgPlayer) {
 

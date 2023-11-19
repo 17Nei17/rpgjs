@@ -1,11 +1,13 @@
 import { RpgServerEngine } from '@rpgjs/server';
 import { RpgServer, RpgModule } from '@rpgjs/server';
-
-@RpgModule<RpgServer>({ 
+import caveDyto from "./maps/enter-to-dytokrys"
+@RpgModule<RpgServer>({
     engine: {
-        onStart(server: RpgServerEngine) {
-            console.log('server.globalConfig.start.map')
+        onStart(engine: RpgServerEngine) {
+            const sceneMap = engine.sceneMap;
+            sceneMap.createDynamicMap(caveDyto)
         }
     }
- })
-export default class RpgServerModuleEngine {}
+})
+
+export default class RpgServerModuleEngine { }

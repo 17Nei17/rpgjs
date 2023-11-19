@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="15" tilewidth="100" tileheight="100" infinite="0" nextlayerid="7" nextobjectid="11">
+<map version="1.10" tiledversion="1.10.2" class="Пещера" orientation="orthogonal" renderorder="right-down" width="8" height="15" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="12">
  <tileset firstgid="1" source="image_processing20191209-702-1wqbux4.tsx"/>
  <tileset firstgid="71" source="PCdesk.tsx"/>
  <tileset firstgid="73" source="shelf.tsx"/>
  <tileset firstgid="74" source="phone.tsx"/>
  <tileset firstgid="75" source="emptyDesk.tsx"/>
+ <tileset firstgid="76" source="SciFiTIlesetBMV.tsx"/>
+ <tileset firstgid="79" source="32x32.tsx"/>
  <layer id="1" name="Слой тайлов 1" width="8" height="15">
   <data encoding="csv">
 44,44,44,44,44,44,44,45,
@@ -20,35 +22,35 @@
 54,55,45,45,45,45,44,45,
 54,55,55,55,55,55,44,45,
 44,45,44,45,44,45,44,45,
-54,55,45,45,45,45,45,45,
-54,55,55,55,55,55,55,55
+54,55,45,34,45,45,45,45,
+54,55,34,55,55,55,55,55
 </data>
  </layer>
  <layer id="2" name="Слой тайлов 2" width="8" height="15">
   <data encoding="csv">
 13,18,7,8,1,1,1,1,
-53,28,29,18,19,9,1,1,
-53,0,0,28,18,19,20,20,
-53,0,0,25,28,29,29,18,
+53,28,29,18,59,10,1,1,
+53,0,0,48,19,20,20,20,
+53,0,0,28,14,29,29,18,
 53,0,0,0,0,0,0,48,
 53,0,0,0,0,0,0,58,
 53,0,0,0,0,0,0,58,
 53,0,0,0,0,0,0,58,
 53,0,0,0,0,0,0,58,
 53,0,0,0,0,0,0,58,
-53,0,0,0,0,0,0,58,
-53,0,0,0,0,0,0,58,
-23,0,0,0,0,0,0,58,
-23,0,0,0,0,0,0,58,
-63,67,64,0,0,65,66,68
+53,0,0,0,0,0,38,68,
+53,0,0,0,0,0,58,59,
+23,0,0,0,0,0,58,59,
+23,0,0,0,0,0,58,59,
+63,64,0,0,66,67,68,69
 </data>
  </layer>
- <layer id="5" name="Слой тайлов 3" width="8" height="15">
+ <layer id="7" name="Слой тайлов 4" width="8" height="15">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,
-0,0,73,0,0,0,0,0,
-0,0,0,75,0,0,0,0,
-0,0,0,0,0,71,72,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,75,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
@@ -62,12 +64,12 @@
 0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="Слой тайлов 4" width="8" height="15">
+ <layer id="5" name="Слой тайлов 3" width="8" height="15">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,
+0,0,73,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-0,0,0,74,0,0,0,0,
-0,0,0,0,0,0,0,0,
+0,0,0,0,74,71,72,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
@@ -82,29 +84,30 @@
 </data>
  </layer>
  <objectgroup id="4" name="Слой объектов 1">
-  <object id="1" name="dytoKrysa-1" x="590.5" y="424">
+  <object id="1" name="dytoKrysa-1" type="Пещера дутокрыс" x="590.5" y="424">
    <point/>
   </object>
-  <object id="4" name="cheese-4-1" x="646.667" y="667">
+  <object id="4" name="cheese-4-1" type="Пещера дутокрыс" x="662.667" y="681.667">
    <point/>
   </object>
-  <object id="6" name="cheese-4-2" x="139.333" y="985.667">
+  <object id="6" name="cheese-4-2" type="Пещера дутокрыс" x="144" y="885">
    <point/>
   </object>
-  <object id="7" name="cheese-4-3" x="152.667" y="480.333">
+  <object id="7" name="cheese-4-3" type="Пещера дутокрыс" x="103.334" y="276.333">
    <point/>
   </object>
-  <object id="8" name="cheese-4-4" x="134.333" y="659">
+  <object id="8" name="cheese-4-4" type="Пещера дутокрыс" x="146.333" y="667">
    <point/>
   </object>
-  <object id="5" name="cheese-1" x="649.333" y="775.667">
+  <object id="5" name="cheese-1" type="Пещера дутокрыс" x="558.666" y="774.334">
    <point/>
   </object>
-  <object id="9" name="shelf" x="250" y="194">
+  <object id="9" name="shelf" type="Пещера дутокрыс" x="251.333" y="180.667">
    <point/>
   </object>
-  <object id="10" name="phone" x="348" y="291">
+  <object id="10" name="phone" type="Пещера дутокрыс" x="452" y="384.333">
    <point/>
   </object>
+  <object id="11" name="enter-to-dytokrys" type="enter-to-dytokrys" x="169.333" y="1408" width="226.667" height="90.6667"/>
  </objectgroup>
 </map>
