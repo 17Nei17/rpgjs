@@ -39,7 +39,7 @@
   </data>
  </layer>
  <objectgroup id="6" name="Слой объектов 1">
-  <object id="20" name="start" type="hero" x="393.969" y="377.152">
+  <object id="20" name="start" type="shrodinger" x="393.969" y="377.152">
    <point/>
   </object>
  </objectgroup>

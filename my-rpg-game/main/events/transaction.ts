@@ -1,6 +1,6 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 import { RpgGui, PrebuiltGui } from '@rpgjs/client'
-import { MapData, RpgMap} from '@rpgjs/server'
+import { MapData, RpgMap } from '@rpgjs/server'
 
 
 @EventData({
@@ -21,9 +21,14 @@ export default class TransactionEvent extends RpgEvent {
             player.showText('......')
             return
         }
+        player.gui('message-gui').open({
+            text: "text",
+            image: "shrodinger"
+        })
         await player.showText('Кто ты такой?');
         await player.showText('Тебя не должно тут быть, ты не из этого мира');
         await player.showText('Черт, я не могу удалить тебя');
+        player.gui('message-gui').close();
         player.setVariable('transaction-init', true)
     }
     onChanges(player: RpgPlayer) {

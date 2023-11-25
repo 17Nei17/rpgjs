@@ -4,8 +4,8 @@ import { RpgMap } from '@rpgjs/server'
 
 const player: RpgPlayerHooks = {
     async onConnected(player: RpgPlayer) {
-        player.name = 'Nei'
-        player.setComponentsTop(Components.text('{name}'));
+        // player.name = 'Nei'
+        // player.setComponentsTop(Components.text('{name}'));
     },
 
     onInput(player: RpgPlayer, { input }) {
@@ -24,6 +24,7 @@ const player: RpgPlayerHooks = {
         player.gui('my-gui').open({
             currentMap: currentMap,
         });
+
         player.setVariable('CURRENT_TIME_DAY', true);
 
 
