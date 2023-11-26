@@ -1,4 +1,4 @@
-import { RpgPlayer, type RpgPlayerHooks, Control, Components } from '@rpgjs/server'
+import { RpgPlayer, type RpgPlayerHooks, Control, Components, RpgShape } from '@rpgjs/server'
 import howlMusic from "./howlMusic"
 import { RpgMap } from '@rpgjs/server'
 
@@ -6,7 +6,7 @@ const player: RpgPlayerHooks = {
     async onConnected(player: RpgPlayer) {
         // player.name = 'Nei'
         // player.setComponentsTop(Components.text('{name}'));
-       
+
     },
 
     onInput(player: RpgPlayer, { input }) {
@@ -36,12 +36,30 @@ const player: RpgPlayerHooks = {
         if (new Date().getHours() >= 23) {
             player.setVariable('CURRENT_TIME_DAY', false)
             console.log("night");
-        } 
+        }
 
     },
     async onLeaveMap(player: RpgPlayer) {
         howlMusic(player.getCurrentMap().songName, 'leave');
-    }
+    },
+    // async onInShape(player: RpgPlayer, shape: RpgShape) {
+    //     console.log('in', player.name, shape.name)
+    //     if (shape.name === "enter-to-dytokrys") {
+    //         const choice = await player.showChoices('Уйти из пещеры?', [
+    //             { text: 'Да', value: 'Yes' },
+    //             { text: 'Нет', value: 'No' },
+    //         ])
+    //         if (choice?.value === "Yes") {
+    //             await player.changeMap('exit-to-dytokrys', {
+    //                 x: 86,
+    //                 y: -4000
+    //             });
+    //         }
+    //     }
+    // },
+    // onOutShape(player: RpgPlayer, shape: RpgShape) {
+    //     console.log('out', player.name, shape.name)
+    // }
 }
 
 export default player

@@ -37,8 +37,14 @@ export default class TransactionDoorEvent extends RpgEvent {
         ])
         player.gui('message-gui').close();
         if (choice?.value === "Load") {
-            const savedUser = JSON.parse(localStorage.getItem('gameSave'));
-            savedUser && player.load(savedUser);
+            if (localStorage.getItem('gameSave')) {
+                const savedUser = JSON.parse(localStorage.getItem('gameSave'));
+                savedUser && player.load(savedUser);
+                !savedUser && await player.showText('Файл воспоминания поврежден (Ошибка JSON.parse)');
+            } else {
+                await player.showText('Файл воспоминания был утерян');
+            }
+
         }
     }
     async onChanges(player: RpgPlayer) {

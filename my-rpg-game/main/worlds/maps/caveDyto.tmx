@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" class="Пещера" orientation="orthogonal" renderorder="right-down" width="8" height="15" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="12">
+<map version="1.10" tiledversion="1.10.2" class="Пещера" orientation="orthogonal" renderorder="right-down" width="8" height="15" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="17">
  <tileset firstgid="1" source="image_processing20191209-702-1wqbux4.tsx"/>
  <tileset firstgid="71" source="PCdesk.tsx"/>
  <tileset firstgid="73" source="shelf.tsx"/>
@@ -109,5 +109,8 @@
    <point/>
   </object>
   <object id="11" name="enter-to-dytokrys" type="enter-to-dytokrys" x="169.333" y="1408" width="226.667" height="90.6667"/>
+  <object id="15" name="exit-to-cave" type="exit-to-cave" x="278.667" y="1456">
+   <point/>
+  </object>
  </objectgroup>
 </map>

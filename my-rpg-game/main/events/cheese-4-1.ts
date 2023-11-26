@@ -15,6 +15,10 @@ export default class CheeseFour extends RpgEvent {
     }
     async onAction(player: RpgPlayer) {
         player.showText('*Гора сыра');
+        player.showText('Эти сыры очень довольны своей судьбой.');
+        if (player.getVariable('get-cheese')) {
+            player.showText('*Гора сыров удивлена вашим решением');
+        }
     }
     async onChanges(player: RpgPlayer) {
 
