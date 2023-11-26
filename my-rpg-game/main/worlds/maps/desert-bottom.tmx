@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" class="север пустыни" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="4">
+<map version="1.10" tiledversion="1.10.2" class="север пустыни" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="100" tileheight="100" infinite="0" nextlayerid="8" nextobjectid="5">
  <properties>
   <property name="songName" value="desert"/>
  </properties>
@@ -344,6 +344,9 @@
    <point/>
   </object>
   <object id="3" name="door-to-dytokrys" x="1048" y="2053.33">
+   <point/>
+  </object>
+  <object id="4" name="desert-save" x="3244.12" y="3578.18">
    <point/>
   </object>
  </objectgroup>

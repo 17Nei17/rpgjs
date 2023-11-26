@@ -6,6 +6,7 @@ const player: RpgPlayerHooks = {
     async onConnected(player: RpgPlayer) {
         // player.name = 'Nei'
         // player.setComponentsTop(Components.text('{name}'));
+       
     },
 
     onInput(player: RpgPlayer, { input }) {
@@ -35,8 +36,7 @@ const player: RpgPlayerHooks = {
         if (new Date().getHours() >= 23) {
             player.setVariable('CURRENT_TIME_DAY', false)
             console.log("night");
-        }
-
+        } 
 
     },
     async onLeaveMap(player: RpgPlayer) {

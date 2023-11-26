@@ -1,5 +1,4 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
-import { RpgGui, PrebuiltGui } from '@rpgjs/client'
 
 @EventData({
     name: 'deleted-cat-4'
@@ -10,7 +9,7 @@ export default class TransactionDoorEvent extends RpgEvent {
     }
     async onAction(player: RpgPlayer) {
         let playerVariable = player.getVariable('deleted-cat-4');
-
+        
         switch (playerVariable) {
             case 1:
                 await player.showText('Этот огонь словно замер...');
