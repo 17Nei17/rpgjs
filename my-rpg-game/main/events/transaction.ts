@@ -1,7 +1,5 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
-import { RpgGui, PrebuiltGui } from '@rpgjs/client'
-import { MapData, RpgMap } from '@rpgjs/server'
-
+import transactionMessage from "../messageImages/transactionMessage.png"
 
 @EventData({
     name: 'transaction',
@@ -23,7 +21,7 @@ export default class TransactionEvent extends RpgEvent {
         }
         player.gui('message-gui').open({
             text: "text",
-            image: "shrodinger"
+            image: transactionMessage
         })
         await player.showText('Кто ты такой?');
         await player.showText('Тебя не должно тут быть, ты не из этого мира');

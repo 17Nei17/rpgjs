@@ -1,6 +1,5 @@
 
 import { Spritesheet, Animation, Direction } from '@rpgjs/client'
-
 // const frameY = direction => {
 //     return {
 //         [Direction.Down]: 0,

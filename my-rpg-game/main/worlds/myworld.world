@@ -4,29 +4,29 @@
             "fileName": "maps/simplemap.tmx",
             "height": 800,
             "width": 800,
-            "x": 188,
-            "y": -236
+            "x": 300,
+            "y": 0
         },
         {
             "fileName": "maps/simplemap2.tmx",
             "height": 1000,
             "width": 400,
-            "x": 388,
-            "y": -2236
+            "x": 500,
+            "y": -2000
         },
         {
             "fileName": "maps/transMap.tmx",
             "height": 1000,
             "width": 400,
-            "x": 388,
-            "y": -1236
+            "x": 500,
+            "y": -1000
         },
         {
             "fileName": "maps/desert1.tmx",
-            "height": 5000,
-            "width": 5000,
-            "x": -1612,
-            "y": -18836
+            "height": 1000,
+            "width": 2000,
+            "x": 3700,
+            "y": -7600
         },
         {
             "fileName": "maps/desert-left.tmx",
@@ -39,8 +39,8 @@
             "fileName": "maps/desert-right.tmx",
             "height": 5000,
             "width": 5000,
-            "x": 10388,
-            "y": -12336
+            "x": 13588,
+            "y": -17036
         },
         {
             "fileName": "maps/desert-top.tmx",
@@ -51,10 +51,10 @@
         },
         {
             "fileName": "maps/desert-bottom.tmx",
-            "height": 5000,
+            "height": 2500,
             "width": 5000,
-            "x": -1912,
-            "y": -7236
+            "x": 2500,
+            "y": -6600
         },
         {
             "fileName": "maps/deseet-left-top.tmx",
@@ -65,10 +65,10 @@
         },
         {
             "fileName": "maps/desert-left-bottom.tmx",
-            "height": 5000,
-            "width": 5000,
-            "x": -6912,
-            "y": -7236
+            "height": 1000,
+            "width": 2500,
+            "x": 500,
+            "y": -3000
         },
         {
             "fileName": "maps/desert-right-top.tmx",
@@ -79,10 +79,10 @@
         },
         {
             "fileName": "maps/desert-right-bottom.tmx",
-            "height": 5000,
-            "width": 5000,
-            "x": 3088,
-            "y": -7236
+            "height": 700,
+            "width": 400,
+            "x": 2500,
+            "y": -4100
         },
         {
             "fileName": "maps/НовыйХолст1.tsx",
@@ -95,8 +95,15 @@
             "fileName": "maps/caveDyto.tmx",
             "height": 1500,
             "width": 800,
-            "x": 188,
-            "y": -8736
+            "x": 3300,
+            "y": -1700
+        },
+        {
+            "fileName": "maps/desert3.tmx",
+            "height": 2100,
+            "width": 2500,
+            "x": 2900,
+            "y": -4100
         }
     ],
     "onlyShowAdjacentMaps": false,
