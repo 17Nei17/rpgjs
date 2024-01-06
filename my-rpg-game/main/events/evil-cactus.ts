@@ -1,8 +1,13 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 
 @EventData({
-    name: 'evil-cactus'
+    name: 'evil-cactus',
+    hitbox: {
+        width: 100,
+        height: 100
+    }
 })
+
 export default class TransactionDoorEvent extends RpgEvent {
     onInit() {
         this.setGraphic('cactus');

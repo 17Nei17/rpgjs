@@ -202,6 +202,6 @@
   <object id="5" name="deleted-cat-3" x="1788" y="1532">
    <point/>
   </object>
-  <object id="7" name="exit-to-dytokrys" type="exit-to-dytokrys" x="800" y="887.879" width="421.212" height="212.121"/>
+  <object id="7" name="exit-to-dytokrys" type="exit-to-dytokrys" x="788" y="899.879" width="421.212" height="212.121"/>
  </objectgroup>
 </map>

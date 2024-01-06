@@ -4,11 +4,11 @@ import { Spritesheet, Animation } from '@rpgjs/client'
 @Spritesheet({
     id: 'cactus',
     width: 188,
-    height: 330,
+    height: 336,
     framesHeight: 2,
     framesWidth: 1,
     rectWidth: 188,
-    rectHeight: 164,
+    rectHeight: 168,
     offset: {
         x: 0, y: 0,
     },
